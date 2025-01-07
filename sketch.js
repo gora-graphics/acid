@@ -1,7 +1,7 @@
 let panel;
 
 // variables for setting panel display properties
-const sc = 1; // screen scaling factor
+const sc = 0.1; // screen scaling factor
 const panelW = 25;
 const panelH = 15;
 const frameW = 20;
@@ -15,8 +15,8 @@ function preload() {
 
 function setup() {
   createCanvas(sc * (panel.width + 2 * frameW), sc * (panel.height + 2 * frameW));
-  resizeCanvas(1080,1920);
-  pixelDensity(1); // pixel density is set to 1 to reduce computation
+  //resizeCanvas(1080,1920);
+  pixelDensity(30); // pixel density is set to 1 to reduce computation
 }
 
 function draw() {
