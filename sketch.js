@@ -15,7 +15,7 @@ function preload() {
 
 function setup() {
   createCanvas(sc * (panel.width + 2 * frameW), sc * (panel.height + 2 * frameW));
-
+  resizeCanvas(1080,1920);
   pixelDensity(1); // pixel density is set to 1 to reduce computation
 }
 
