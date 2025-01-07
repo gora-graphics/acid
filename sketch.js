@@ -10,7 +10,7 @@ const frameW = 20;
 let swapStyle;
 
 function preload() {
-  panel = loadImage("615A2985-1-.jpg");
+  panel = loadImage("6I5A3392.jpg");
 }
 
 function setup() {
